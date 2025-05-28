@@ -1,0 +1,26 @@
+Column,Description,Datatype
+health_service_area,Description of the health service area in which the hospital is located.,text
+hospital_county,Description of the county in which the hospital is located.,text
+operating_certificate_number,The facility Operating Certificate Number as assigned by New York State Department of Health.,text
+facility_id,Permanent Facility Identifier (PFI).,number
+facility_name,The name of the facility where services were performed based on the Permanent Facility Identifier (PFI), as maintained by the NYSDOH Division of Health Facility Planning.,text
+age_group,Age in years at time of discharge. Grouped into the following age groups: 0 to 17, 18 to 29, 30 to 49, 50 to 69, and 70 or Older.,text
+zip_code_3_digits,The first three digits of the patient’s zip code. Blank for - population size less than 20,000 or cell size less than 10 on population classification strata. “OOS” are Out of State zip codes.,text
+gender,Patient gender: (M) Male, (F) Female, (U) Unknown.,text
+race,Black/African American, Multi, Other, Race, Unknown, White. Other Race includes Native Americans and Asian/Pacific Islander.,text
+ethnicity,The ethnicity of the patient: Spanish/Hispanic Origin, Not of Spanish/Hispanic Origin, Multi, Unknown.,text
+length_of_stay,The total number of patient days at an acute level and/or other than acute care level (excluding leave of absence days) (Discharge Date - Admission Date) + 1. Length of Stay greater than or equal to 120 days has been aggregated to 120+ days.,number
+type_of_admission,A description of the manner in which the patient was admitted to the health care facility: Elective, Emergency, Newborn, Not Available, Trauma, Urgent.,text
+patient_disposition,The patient’s destination or status upon discharge.,text
+discharge_year,The year (CCYY) of discharge.,number
+ccs_diagnosis_code,AHRQ Clinical Classification Software (CCS) Diagnosis Category Code. More information on the CCS system may be found at the direct link: http://www.hcup-us.ahrq.gov/toolssoftware/ccs/ccs.jsp,number
+ccs_diagnosis_description,AHRQ Clinical Classification Software (CCS) Diagnosis Category Description. More information on the CCS system may be found at the direct link: http://www.hcup-us.ahrq.gov/toolssoftware/ccs/ccs.jsp,text
+ccs_procedure_code,AHRQ Clinical Classification Software (CCS) ICD-9 Procedure Category Code. More information on the CCS system may be found at the direct link: http://www.hcup-us.ahrq.gov/toolssoftware/ccs/ccs.jsp,number
+ccs_procedure_description,AHRQ Clinical Classification Software (CCS) ICD-9 Procedure Category Description. More information on the CCS system may be found at the direct link: http://www.hcup-us.ahrq.gov/toolssoftware/ccs/ccs.jsp,text
+apr_drg_code,The APR-DRG Classification Code in Calendar Year 2011, Version 28 of the APR-DRG Grouper. http://www.health.ny.gov/statistics/sparcs/sysdoc/aprdrg.htm,number
+apr_drg_description,The APR-DRG Classification Code Description in Calendar Year 2011, Version 28 of the APR-DRG Grouper. http://www.health.ny.gov/statistics/sparcs/sysdoc/aprdrg.htm,text
+apr_mdc_code,All Patient Refined Major Diagnostic Category (APR MDC) Code. APR-DRG Codes 001-006 and 950-956 may group to more than one MDC Code. All other APR DRGs group to one MDC category.,number
+apr_mdc_description,All Patient Refined Major Diagnostic Category (APR MDC) Description.,text
+apr_severity_of_illness_code,The APR-DRG Severity of Illness Code: 1, 2, 3, 4.,number
+apr_severity_of_illness_description,All Patient Refined Severity of Illness (APR SOI) Description: Minor (1), Moderate (2), Major (3), Extreme (4).,text
+apr_risk_of_mortality,All Patient Refined Risk of Mortality (APR ROM): Minor (1), Moderate (2), Major (3),
